@@ -27,5 +27,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login3/Page_Swag Labs/i
 
 WebUI.click(findTestObject('Object Repository/Login3/Page_Swag Labs/input_Swag Labs_login-button'))
 
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Login/Page_Swag Labs/h3_Epic sadface Sorry, this user has been locked out'), 'Epic sadface: Username and password do not match any user in this service')
 
