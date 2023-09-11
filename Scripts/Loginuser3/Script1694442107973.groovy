@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Swag Labs/input_Swag Labs_user-name'), 'performance_glitch_user')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Swag Labs/input_Swag Labs_user-name'), GlobalVariable.user3)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
 
